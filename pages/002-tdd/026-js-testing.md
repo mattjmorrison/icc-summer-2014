@@ -8,3 +8,4 @@ layout: slide
 - QUnit
 - Testem
 - Sinon.js
+- PhantomJS
