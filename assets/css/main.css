@@ -1,0 +1,16 @@
+.reveal .roll {
+    vertical-align:middle;
+}
+section>table {
+    width: 100%;
+}
+
+.mystory table th {
+    font-weight:bold;
+}
+
+.mystory table>thead>tr>th {
+    border-bottom:1px solid;
+    text-align:center;
+}
+
