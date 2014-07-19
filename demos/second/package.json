@@ -1,0 +1,10 @@
+{
+    "name": "demo",
+    "dependencies": {
+        "testem": "*",
+        "bower": "*"
+    },
+    "scripts": {
+        "postinstall": "bower install"
+    }
+}

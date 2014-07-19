@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <title>TDD Demo</title>
+</head>
+<body>
+  <script type="text/x-handlebars">
+    <h1 id="greeting">Hello ICC</h1>
+    {{outlet}}
+  </script>
+  <script type="text/x-handlebars" data-template-name="addition">
+    {{input value=a id="a"}}
+    {{input value=b id="b"}}
+    <span id="c">{{c}}</span>
+  </script>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/handlebars/handlebars.min.js"></script>
+  <script src="bower_components/ember/ember.prod.js"></script>
+  <script src="app.js"></script>
+  <script src="/testem/qunit.js"></script>
+  <script src="tests.js"></script>
+  <script src="/testem.js"></script>
+</body>
+</html>
