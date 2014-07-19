@@ -7,7 +7,3 @@ layout: slide
 <br />
 
 ### I don't do it today like I did back then
-
-<br />
-
-#### I'll show you later...
